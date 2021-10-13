@@ -35,7 +35,7 @@ RUN git clone https://github.com/NVIDIA/cocoapi && \
 WORKDIR /
 
 # clone repo for mask r-cnn scripts and demos
-RUN git clone https://github.com/aws-samples/mask-rcnn-tensorflow.git
+RUN git clone https://github.com/covernal/mask-rcnn-tensorflow.git
 
 RUN chmod -R +w /mask-rcnn-tensorflow
 RUN pip install --ignore-installed -e /mask-rcnn-tensorflow/
